@@ -18,7 +18,10 @@ require 'clipboard'
   /\s*\(\s*/ => "(",
   /\s*\)\s*/ => ")",
   /\s*\{/ => " {\n",
-  /\}/ => "\n}"
+  /\}/ => "\n}",
+  /\.[ ]*/ => ".",
+  /\[[ ]*/ => "[",
+  /@Override/ => "@Override\n"  #TODO: abstract so that any annotation gets newlined
 }
 
 @fmt_maps = {
