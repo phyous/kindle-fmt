@@ -13,15 +13,26 @@ of your clipboard with (somewhat) better formatted code. Not perfect, but made m
 2- Go to your Kindle app copy a block of code (only xml and java supported for now)
 <center><img src="/help/1_copy.png" height="200px"/></center>
 
-3- run the kindle_fmt script from your terminal.
+3- Run the kindle_fmt script from your terminal.
 > ./kindle_fmt
 
 4- The contents of your clipboard should contain newly formatted code.
-<center><img src="/help/2_paste.png" height="300px"/></center>
+<table border="1">
+<tr>
+<td>Before</td>
+<td>After</td>
+</tr>
+<tr>
+<td><center><img src="/help/3_bad.png" height="300px"/></center></td>
+<td><center><img src="/help/2_paste.png" height="300px"/></center></td>
+</tr>
+</table>
 
 Script will try to detect if you're pasting xml or java. You can explicitly tell the script how to treat the text. Ex:
 > ./kindle_fmt xml
+
 OR
+
 > ./kindle_fmt java
 
 ### Tips
@@ -29,7 +40,7 @@ OR
 (In ~/.bashrc or ~/.zshrc)
 > export PATH=$PATH:/path/to/kindle_fmt
 
-- You could probably bind this script to a hotkey combo to make life even easier. Kind of annoying having ot go to the
+- You could probably bind this script to a hotkey combo to make life even easier. Kind of annoying having to go to the
 terminal to apply formatting.
 
 ### TODO
