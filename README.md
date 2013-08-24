@@ -17,14 +17,14 @@ of your clipboard with (somewhat) better formatted code. Not perfect, but made m
 > ./kindle_fmt
 
 4- The contents of your clipboard should contain newly formatted code.
-<table border="1">
+<table border="1" height="300px">
 <tr>
-<td>Before</td>
-<td>After</td>
+<th>Before</th>
+<th>After</th>
 </tr>
 <tr>
-<td><center><img src="/help/3_bad.png" height="300px"/></center></td>
-<td><center><img src="/help/2_paste.png" height="300px"/></center></td>
+<td width="50%"><center><img src="/help/3_bad.png" /></center></td>
+<td width="50%"><center><img src="/help/2_paste.png" /></center></td>
 </tr>
 </table>
 
