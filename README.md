@@ -11,11 +11,13 @@ of your clipboard with (somewhat) better formatted code. Not perfect, but made m
 > gem install clipboard
 
 2- Go to your Kindle app copy a block of code (only xml and java supported for now)
+<center><img src="/help/1_copy.png" height="200px"/></center>
 
 3- run the kindle_fmt script from your terminal.
 > ./kindle_fmt
 
 4- The contents of your clipboard should contain newly formatted code.
+<center><img src="/help/2_paste.png" height="300px"/></center>
 
 Script will try to detect if you're pasting xml or java. You can explicitly tell the script how to treat the text. Ex:
 > ./kindle_fmt xml
