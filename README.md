@@ -45,5 +45,6 @@ terminal to apply formatting.
 
 ### TODO
 - Get Amazon to fix formatting int heir app. Its turrrrible.
-- Add support for more languages
+- My formatting rules are super basic and don't cover corner cases well at all. Feel free to improve.
+- Add support for more languages\syntax.
 
